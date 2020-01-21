@@ -10,43 +10,41 @@
 </head>
 <body>
 	<div class="container">
-		<form id="favoritForm">
-			<div class="form-group">
-				<label for="item1">what's your favorite food?</label>
-				<input type="text" class="form-control" id="item1" placeholder="Fav Food">
-			</div>
-			<div class="form-group">
-					<label for="item2">what's your favorite activity?</label>
-					<input type="text" class="form-control" id="item2" placeholder="Fav Activity">
-        </div>
-        <div class="form-group">
-            <label for="item3">what's your favorite color?</label>
-            <input type="text" class="form-control" id="item3" placeholder="Fav Color">
-					</div>
-					<div class="form-group">
-							<label for="item4">what's your least favorite food?</label>
-							<input type="text" class="form-control" id="item4" placeholder="Least Fav Food">
-						</div>
-						<div class="form-group">
-								<label for="item5">what's your least favorite activity?</label>
-								<input type="text" class="form-control" id="item5" placeholder="Least Fav Activity">
-							</div>
-							<div class="form-group">
-									<label for="item6">what's your least favorite color?</label>
-									<input type="text" class="form-control" id="item6" placeholder="Least Fav Color">
-								</div>
-          <button id="submit-btn" type="submit">Submit</button>
-		</form>
-		<div id="results">
-			<h3>favorit things</h3>
+		<div id="formdiv">
+			<form id="itemForm">
+				<div class="form-group">
+					<label for="item1">item1</label>
+					<input type="text" class="form-control" id="item1" placeholder="item1">
+				</div>
+				<div class="form-group">
+					<label for="item2">item2</label>
+					<input type="text" class="form-control" id="item2" placeholder="item2">
+				</div>
+				<div class="form-group">
+					<label for="item3">item3</label>
+					<input type="text" class="form-control" id="item3" placeholder="item3">
+				</div>
+				<div class="form-group">
+					<label for="item4">item4</label>
+					<input type="text" class="form-control" id="item4" placeholder="item4">
+				</div>
+				<div class="form-group">
+					<label for="item5">item5</label>
+					<input type="text" class="form-control" id="item5" placeholder="item5">
+				</div>
+				<div class="form-group">
+					<label for="item6">item6</label>
+					<input type="text" class="form-control" id="item6" placeholder="item6">
+				</div>
+				<button id="submit-btn" type="submit">Submit</button>
+			</form>
+		</div>
+		<div id="results" class="none">
+			<h3>Groceries</h3>
 			<ul id="resultList">
+				<li></li>
 			</ul>
 		</div>
-		<div>
-				<h3>least favorit things</h3>
-				<ul id="leastResultList">
-				</ul>
-			</div>
 	</div>
 
 </body>
